@@ -1,0 +1,22 @@
+@media (min-width: 550px, max-width: 720px){
+}
+#nav-bar{
+  position: fixed;
+  width: 100%;
+top:0px;
+}
+ul{
+  justify-items: center;
+}
+ 
+.lists {
+  list-style-type: none;
+  margin-top: 2rem;
+  justify-content: space-between;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,48 @@
+body{
+    width: 100%;
+    height: 100vh; background-color: #1b1b32;
+  margin:0px;
+  color: white;
+  font-family: tohoma;
+  font-size: 16px;
+  margin-top: -18px;
+  }
+  h1,p{
+    margin: 1em auto;
+  font-weight: bold;
+  text-align: center;
+  }
+  form{
+    width: 60vh; max-width: 500px; min-width: 300px;
+    margin: 0 auto;
+  }
+  fieldset{
+    border: none;
+    padding: auto;
+    border-bottom: 3px solid #3b
+  }
+    input textarea select{
+      margin: 10px 0 0 0;
+    width: 100%;
+    } 
+  .inline{
+   width: unset;
+    margin: 0 0.5em 0 0;  vertical-align: middle;
+    display: block;
+  }
+  .btn{
+    width: 64vh;
+    padding: auto;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    height: 2em;
+    }
+    #dropdown{
+  margin-left: auto;
+  margin-right: auto;
+    }

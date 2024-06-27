@@ -1,0 +1,15 @@
+@media(min-width:768px){
+    .containaer{
+        width: 80%;
+    }
+}
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+iframe{
+    width: 80%;
+    height: 50vh;
+    border: none;
+}

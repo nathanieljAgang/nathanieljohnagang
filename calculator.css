@@ -1,0 +1,62 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Generate 4 columns of equal width */
+    grid-template-rows: repeat(6, 1fr); /* Generate 6 rows of equal height */
+    grid-template-areas:
+        "display display display display"
+        "AC C times divide"
+        "seven eight nine minus"
+        "four five six plus"
+        "one two three equal"
+        "zero zero dot equal";
+}
+
+.padbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px 40px;
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.display {
+    grid-area: display;
+    background-color: black;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+}
+
+/* Additional styles for button colors */
+.dark-gray {
+    background-color: #333;
+}
+.natty {
+    background-color: #f37a7a;
+}
+.Agang {
+    background-color: #5599ff;
+}
+.Total {
+    padding: 5px 20px;
+    color: yellow;
+}
+
+.display input {
+    width: 50%;
+    color: white;
+    padding: 5px 20px;
+    text-align: right;
+    background-color: black;
+}
+input::placeholder{
+    color: white;
+}
+.padbutton:hover{
+    border:1px solid white ;
+    color: gray;
+}

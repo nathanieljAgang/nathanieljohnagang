@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <title>survey form</title>
+</head>
+<body>
+  <main>
+  <h1 id="title">nattytech survey form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form action="https://testgituhnath.github.io/nathaniel-website/" id="survey-form" value="submit">
+  <fieldset>
+    <legend>Participant Information</legend>
+<label for="name" id="name-label">fullname</label><input type="text" id="name" name="fullname" placeholder="name" required>
+    <label for="email" id="email-label">email address</label><input type="email" id="email" name="email" placeholder="email address" required>
+    <label for="number" id="number-label">Age</label><input type="number" id="number" name="age" min="18" max="50" placeholder="number">
+  </fieldset>
+  <p>Which option best describes your current role?</p>
+  <fielsset>
+<select id="dropdown" name="current role">
+<option value="">select current role</option>
+<option value="1">student</option>
+<option value="2">fulltime job</option>
+<option value="3">fulltime learner</option>
+<option value="4">others</option>
+<option value="3">rather not say</option>
+</select>
+<P> will you select nattytech tp your friend</p>
+<label><input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">definitely</label>
+<label><input name="user-recommend" value="maybe" type="radio" class="input-radio" checked="">maybe</label>
+<label><input name="user-recommend" value="maybe not" type="radio" class="input-radio" checked="">maybe not</label>
+</fieldset>
+<p>what your favourite feature in nattytech</P>
+<fieldset>
+  <select>
+<option value="">select an option</option> <option value="1">challenge</option>
+<option value="2">project</option>
+<option value="3">furom</option>
+<option value="4">community</option>
+  </select>
+  <p>what will you us improve?(check all that aply)</p> 
+  <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
+  <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">
+ <input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">
+ <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+ <input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">
+</fieldset>
+<p>Any comments or suggestion</p>
+<textarea rows="4" cols="40" placeholder="enter you comment/suggestion here"></textarea>
+<input type="submit" value="submit" class="btn" id="submit">
+  </form>
+  </main>
+</body>
